@@ -1,0 +1,328 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    max-width: 1920px;
+    margin: 0 auto;
+}
+h1{
+    font-size: 26px;
+}
+h2{
+    font-size: 80px;
+    font-weight: bold;
+}
+h3{
+    font-size: 40px;
+    text-align: center;
+    padding-top: 115px;
+}
+h4{
+    font-size: 30px;
+    padding: 28px 0;
+}
+h5{
+    color: white;
+    font-size: 30px;
+    padding: 110px 0;
+}
+h6{
+    font-size: 20px;
+    font-weight: bold;
+    padding-bottom: 25px;
+}
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+}
+.b-color{
+    background-color: #0b416d;
+}
+.nav-bar{
+    background-color: #0b416d;
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 94%;
+    /* padding-right: auto; */
+    /* padding-left: auto; */
+    margin: 0 auto;
+    /* padding: 0 auto; */
+}
+ul{
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+}
+ul li{
+    padding: 44px 35px 48px;
+}
+ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 17px;
+    text-transform: uppercase;
+}
+.fa-search{
+    font-size: 17px;
+}
+.slid{
+    background-color: #f9f9f9;
+    padding: 118px 0;
+}
+.slider{
+    width: 80%;
+    margin: 0 auto;
+    align-items: center;
+}
+.slider p{
+    font-size: 17px;
+    line-height: 58px;
+}
+.slider button{
+    font-size: 17px;
+    background-color: black;
+    color: white;
+    padding: 20px 50px;
+    border: none;
+}
+button:hover{
+    background-color: #0c426e !important;
+    color: white;
+}
+.fa-arrow-circle-left:hover{
+    color: #0c426e;
+}
+.fa-arrow-circle-right:hover{
+    color: #0c426e;
+}
+.w{
+    width: 50%;
+}
+.slider img{
+    width: 100%;
+}
+h3 span{
+    color: #0c426e;
+}
+.bor{
+    border: 3px solid;
+    width: 4%;
+    margin: 5px auto;
+    border-radius: 10px;
+}
+.card-1{
+    width: 25%;
+    text-align: center;
+    margin: 0 28px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.center{
+    justify-content: center;
+    margin-top: 85px;
+}
+.card-1 img{
+    width: 100%;
+}
+p{
+    font-size: 17px;
+    line-height: 28px;
+}
+.card-1 button{
+    padding: 16px 28px;
+    margin: 28px 0;
+    background-color: black;
+    color: white;
+    border: none;
+}
+.card-1 p{
+    padding: 0 40px;
+}
+.quality{
+    background-image: url(../images/BackCars.jpg);
+    text-align: center;
+    margin-top: 88px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.quality p{
+    padding: 0 250px;
+}
+.quality button{
+    padding: 35px 100px;
+    margin: 135px 0;
+    border: none;
+}
+.choose{
+    align-items: center;
+    padding-bottom: 30px;
+}
+.choose div{
+    text-align: center;
+    border: 1px solid #0c426e;
+    border-radius: 50%;
+    width: 20px;
+    padding: 6px;
+    color: #0c426e;
+    margin-right: 20px
+}
+.choose span{
+    font-size: 20px;
+    font-weight: bold;
+    color: #0c426e;
+}
+.card-2{
+    width: 24%;
+    padding: 38px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.card-2:hover{
+    background-color: #0c426e;
+    color: white;
+}
+.card-2:hover div span{
+    color: white;
+}
+.us{
+    max-width: 70%;
+    margin: 110px auto;
+    justify-content: space-evenly;
+}
+.testimonial{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    width: 60%;
+    margin: 96px auto;
+}
+.w2{
+    width: 10%;
+    text-align: center;
+}
+.w3{
+    width: 60%;
+    padding: 68px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.w4{
+    width: 20%;
+    padding-right: 20px;
+}
+.w4 img{
+    width: 100%;
+}
+.w5{
+    width: 70%;
+    padding-left: 20px;
+}
+.w5 p{
+    /* line-height: 20px; */
+    padding-bottom: 20px;
+}
+.f1{
+    font-size: 20px;
+    font-weight: bold;
+}
+.col{
+    font-size: 13px;
+    color: #0c426e;
+}
+.fa{
+    font-weight: bold;
+    font-size: 35px;
+}
+.footer{
+    background-color: #242424;
+    color: white;
+    padding-top: 250px;
+}
+.link ul{
+    display: block;
+    list-style: none;
+}
+.link ul li{
+    padding: 0;
+}
+.data{
+    width: 80%;
+    margin: 0 auto;
+    justify-content: space-evenly;
+}
+.cont div{
+    font-size: 17px;
+    color: #686868;
+}
+.link li a{
+    font-size: 17px;
+    color: #686868;
+}
+.time p{
+    font-size: 17px;
+    color: #686868;
+}
+input{
+    width: 232px;
+    height: 30px;
+}
+.news button{
+    margin-top: 13px;
+    padding: 11px 62px;
+    background-color: #0b416d;
+    color: white;
+    border: none;
+}
+.fa-map-marker{
+    padding-right: 12px;
+    font-size: 17px;
+    color: #686868;
+}
+.fa-phone{
+    padding-right: 12px;
+    font-size: 17px;
+    color: #686868;
+}
+.fa-envelope{
+    padding-right: 12px;
+    font-size: 17px;
+    color: #686868; 
+}
+.fa-facebook-f{
+    background-color: white;
+    color: black;
+    font-size: 15px;
+    border-radius: 50%;
+    padding: 5px;
+}
+.fa-twitter{
+    background-color: white;
+    color: black;
+    font-size: 15px;
+    border-radius: 50%;
+    padding: 5px;
+}
+.fa-linkedin{
+    background-color: white;
+    color: black;
+    font-size: 15px;
+    border-radius: 50%;
+    padding: 5px;
+}
+.fa-instagram{
+    background-color: white;
+    color: black;
+    font-size: 15px;
+    border-radius: 50%;
+    padding: 5px;
+}
+.social{
+    text-align: center;
+    padding: 80px 0;
+}
+.disc{
+    text-align: center;
+    padding-bottom: 48px;
+}

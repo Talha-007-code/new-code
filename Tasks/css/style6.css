@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.tiny i{
+    font-size: 40px; 
+}
+.tiny p{
+    font-size: 18px;
+}
+.tiny{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.nav{
+    background-color: yellow;
+}
+.nav-bar{
+    background-color: yellow;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 20px 0;
+}
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+}
+.fa{
+    padding-right: 10px;
+}
+.head{
+    text-align: center;
+    padding: 80px 0;
+}
+h1{
+    font-size: 36px;
+}
+button:hover{
+    background-color: black;
+    color: white;
+}
+.head button:hover{
+    background-color: black;
+    color: white;
+}
+.head p{
+    padding: 18px 0;
+}
+.head button{
+    padding: 7px 30px;
+    background-color: yellow;
+}
+.icon{
+    text-align: center;
+    font-size: 25px;
+    padding: 18px;
+}
+.feat{
+    padding: 35px 0;
+    margin: 20px auto;
+}
+.feature{
+    text-align: center;
+    padding: 20px 0;
+}
+.feature p{
+    padding: 20px 0;
+}
+.just{
+    justify-content: center;
+    padding: 20px;
+}
+.w1{
+    width: 24%;
+}
+.w2{
+    width: 12%;
+    text-align: center;
+}
+.w2 i{
+    font-size: 25px;
+}
+.w3{
+    width: 80%;
+}
+.price{
+    text-align: center;
+    margin: 20px 25px;
+}
+.price i{
+    border-radius: 50%;
+    font-size: 38px;
+    padding: 25px 30px;
+    background-color: gainsboro;
+    margin-bottom: 15px;
+}
+.price i:hover{
+    background-color: black;
+    color: white;
+}
+.price p{
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.price button{
+    padding: 10px 15px;
+    text-transform: uppercase;
+}
+.price img{
+    width: 180px;
+}
+.justify{
+    justify-content: center;
+    margin: 10px auto;
+}
+.bor{
+    border: 1px solid;
+    width: 16%;
+    margin: 3px auto;
+    border-radius: 10px;
+}
